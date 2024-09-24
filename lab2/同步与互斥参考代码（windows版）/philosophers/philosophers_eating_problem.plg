@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: philosophers_eating_problem - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/philosophers_eating_problem.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\philosophers_eating_problem\philosophers_eating_problemView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/philosophers_eating_problem.pdb" /debug /machine:I386 /out:"Debug/philosophers_eating_problem.exe" /pdbtype:sept 
+.\Debug\MainFrm.obj
+.\Debug\philosophers_eating_problem.obj
+.\Debug\philosophers_eating_problemDoc.obj
+.\Debug\philosophers_eating_problemView.obj
+.\Debug\StdAfx.obj
+.\Debug\philosophers_eating_problem.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7D.tmp"
+<h3>Output Window</h3>
+Compiling...
+philosophers_eating_problemView.cpp
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(306) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(306) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(306) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(306) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(307) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(307) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(326) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(326) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(327) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(327) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(328) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(328) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(341) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(341) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(342) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(342) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(343) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(343) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(351) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(351) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(352) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(352) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(353) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\philosophers_eating_problem\philosophers_eating_problemView.cpp(353) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+philosophers_eating_problem.exe - 0 error(s), 24 warning(s)
+</pre>
+</body>
+</html>

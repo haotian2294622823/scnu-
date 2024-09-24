@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+//---------------------------------------------------------------------------
+
+#pragma argsused
+#include "iostream.h"
+int main(int argc, char* argv[])
+{
+  HANDLE hMutex;
+  hMutex=OpenMutex(MUTEX_ALL_ACCESS,false,"TestMutex");
+  int i,j;
+  for (i=0;i<1000;i++)
+   {
+     cout<< "执行P操作，准备进入临界区。。。" <<endl;
+     WaitForSingleObject(hMutex,INFINITE);
+     for(j=0;j<5;j++)
+       cout<< " 我在临界区！ " <<endl;
+     Sleep(2000);
+     cout<< "执行V操作，唤醒其他等待进程。。。" <<endl;
+     ReleaseMutex(hMutex);
+     //cin.get();
+   }
+
+  return 0;
+}
+//---------------------------------------------------------------------------
+ 
